@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                echo "This is a minimal pipeline"
-               sh './gradlew src/TestingPipeline.java'
+               sh "java src/TestingPipeline.java"
             }
         }
         stage('Here We can Run Julies Algorithm') {

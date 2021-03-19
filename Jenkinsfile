@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                echo "This is a minimal pipeline"
-               java "src/TestingPipeline.java"
+               sh 'javac src/TestingPipeline.java'
             }
         }
         stage('Here We can Run Julies Algorithm') {

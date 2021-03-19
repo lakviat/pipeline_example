@@ -4,12 +4,13 @@ pipeline {
         stage('Build') {
             steps {
                echo "This is a minimal pipeline"
-               sh 'java src/TestingPipeline.java'
+               //sh 'java /var/lib/jenkins/workspace/pipeline-main/src/TestingPipeline.java'
             }
         }
         stage('Here We can Run Julies Algorithm') {
             steps {
                echo "This is a minimal pipeline"
+               sh 'ls -l'
             }
        }
 

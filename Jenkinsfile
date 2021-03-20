@@ -14,6 +14,13 @@ pipeline {
             }
        }
 
+               stage('This is Nurlan Branch') {
+                   steps {
+                      echo "This is a minimal pipeline"
+                      sh 'ls -l'
+                   }
+              }
+
 
        stage('Finish Validation') {
                   steps {

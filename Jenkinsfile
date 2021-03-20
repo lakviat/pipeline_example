@@ -14,8 +14,6 @@ pipeline {
             }
        }
 
-       stage('Here We can Run Eldiiar Algorithm') {
-
 
        stage('Finish Validation') {
                   steps {

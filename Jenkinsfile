@@ -15,10 +15,7 @@ pipeline {
        }
 
        stage('Here We can Run Eldiiar Algorithm') {
-           steps {
-              echo "This is a minimal pipeline"
-           }
-      }
+
 
        stage('Finish Validation') {
                   steps {
